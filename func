@@ -1,0 +1,8 @@
+#!/bin/bash
+#balabala
+fun(){
+	echo $1
+	echo $2
+	echo "the number of parameters is $#"
+	}
+fun str2
