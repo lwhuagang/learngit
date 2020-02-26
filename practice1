@@ -1,6 +1,9 @@
 #!/bin/bash
 #create a file and write something aotumobile
-touch pract1
-sed -n -e '1p' -e '3p' readme.txt >> pract1
-git add pract1
-git commit -m "practice one forthe create test"
+lab_test(){
+	touch pract1
+	sed -n -e '1p' -e '2p' $1 > $2
+	git add pract1
+	git commit -m "practice one forthe create test"
+}
+lab_test $1 $2

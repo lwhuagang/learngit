@@ -3,5 +3,6 @@
 fun(){
 	echo $1
 	echo $2
-	echo "the number of parameters is $#"
+    echo "the number of parameters is $1"
 	}
+fun $1 $2
