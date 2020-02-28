@@ -1,0 +1,7 @@
+1、git reset <file>或者git rm --cache <file> //撤销某次的提交
+2、git rm -f <file>  //删除本地的文件（本地仓库中的文件）
+3、git config --global core.safecrlf true  //解决u按行不同带来的额问题
+4、git rm -r --cached  // gitignore只能忽略没有被track的文件，如果已经track需要删除
+   git add .
+   git commit -m ‘update .gitignore’
+   git push origin master
